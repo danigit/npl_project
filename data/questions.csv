@@ -1,0 +1,960 @@
+Id,Title,Body,PostTypeId,Tags
+"33071859","What is the difference between an array of characters and a single linear array?","<p>I'm new to java and I need help learning nomenclature.</p>
+","1","<java><arrays><data-structures><types><nomenclature>"
+"24855711","How can I create a 2D array of 2D char arrays?","<p>I want to create a 2D array [3][3] ; each element should be a 3x3 character array
+How can I accomplish this in java?</p>
+","1","<java><arrays><multidimensional-array>"
+"49313051","Java Generic Matrix creation","<p>I want to create a generic type matrix in java with the dimension size will be randomised.</p>
+
+<p>What is the best way to approach this?</p>
+","1","<java><arrays><matrix><arraylist>"
+"663632","Converting a Bidimensional Array (Numbers) Into A Dimensional Array and Viceversa on Java","<p>I'm in need of help right now. I need to convert 2 dimensional array of numbers to a one dimensional array in Java. Can anyone help me?</p>
+","1","<java><arrays>"
+"705288","Java array: direct access to component in array","<p>Am I able to access an array component directly such as:</p>
+
+<p>String x = args[1] ?</p>
+
+<p>or do I have to use a loop and use args[i] ?</p>
+","1","<java><arrays>"
+"33484725","I'm trying to create an arrayList that could accept both integers and array","<p>How do I create a generic array list in Java that could accept both integers and array?</p>
+
+<pre><code>[123,[],112,[],10]
+</code></pre>
+","1","<java><generics><arraylist>"
+"1200621","How do I declare and initialize an array in Java?","<p>How do I declare and initialize an array in Java?</p>
+","1","<java><arrays>"
+"17540251","Getting top 3 highest values in arraylist?","<p>I have an arraylist filled with integers. I just need a way to get the top three integers in the arraylist.</p>
+","1","<java><sorting><arraylist><integer><comparison>"
+"1589813","When to use a List over an Array in Java?","<p>In Java, when would it be preferential to use a List rather than an Array?</p>
+","1","<java><arrays><list><data-structures>"
+"2795350","How to put a Scanner input into an array... for example a couple of numbers","<pre><code>Scanner scan = new Scanner(System.in);
+double numbers = scan.nextDouble();
+double[] avg =..????
+</code></pre>
+","1","<java><arrays><java.util.scanner>"
+"33089567","Setting an array as an input parameter for a method","<p>How would I write a method that takes an array of the double data type as input. What variables would I need to declare?</p>
+","1","<java><arrays><methods><parameters><double>"
+"50784740","Is it possible in java to insert arithmetic operator(+ - / * ) in an array?","<p>I'm working on a calculator app..so i'm thinking is there any way out to store arithmetic operator in an array</p>
+","1","<java><android><arrays><arraylist>"
+"26403523","Is it possible to store all bytes from file to array of bytes?","<p>Just as the title, is it possible to store all bytes from file to array of bytes without getting java heap space error?</p>
+","1","<java><arrays><memory><bytearray>"
+"1034473","Java Iterate Bits in Byte Array","<p>How can i iterate bits in a byte array?</p>
+","1","<java><arrays><byte><bit><loops>"
+"1035107","Is it more efficient to remove elements from an ArrayList or a LinkedList?","<p>In theory, is it more efficient to remove elements from an <code>ArrayList</code> or a <code>LinkedList</code>?</p>
+","1","<java><arraylist><linked-list>"
+"1090556","Java: how to convert HashMap<String, Object> to array","<p>I need to convert a <code>HashMap&lt;String, Object&gt;</code> to an array; could anyone show me how it's done?</p>
+","1","<java><arrays><collections><hashmap>"
+"17440349","how to print list of buffered image in java","<p>Is there any way to print list of(multiple) buffered image in a single printjob ? Thanks in advance.</p>
+","1","<java><arrays><printing><bufferedimage>"
+"1264709","Convert InputStream to byte array in Java","<p>How do I read an entire <code>InputStream</code> into a byte array?</p>
+","1","<java><bytearray><inputstream>"
+"1672259","Final arraylist declaration","<p>When I declared final arraylist(), then can I perform insert,search and update operation in that arraylist or not.</p>
+","1","<java><arraylist><declaration><final>"
+"34110553","Java.util.Arrays.sort - what type?","<p>What type of search is Java.util.Arrays.sort()?  Not important but I was just curious.  Thanks in advance!</p>
+","1","<java><arrays><sorting>"
+"41007357","How to display a string array to a JPanel?","<p>I have a string array that I want to display to a JPanel. How do I implement this?</p>
+","1","<java><sql><arrays><swing><jpanel>"
+"8267348","How to create a list with specific size of elements","<p>Say, I want to create a list quickly which contains 1000 elements. What is the best way to accomplish this?</p>
+","1","<java><performance><arraylist><collections>"
+"33310553","JAVA MissingFormatArgumentException: Printing an array that is passed in method parameters","<p>Question has been answered already</p>
+","1","<java><arrays><object><exception><parameter-passing>"
+"8549747","Java - How do I make a String array with values?","<p>I know how to make an empty array, but how do I make a <code>String</code> array with values from the start?</p>
+","1","<java><arrays><string>"
+"25198417","How to find if a field is an enum array using reflection?","<p>I want to find out in Java, using reflection, if a particular field is an array of enums. Does anyone know how to do this?</p>
+","1","<java><arrays><reflection><enums>"
+"1939004","how will I find odd elements from two arrays","<p>I have one array </p>
+
+<pre><code>int a[] = {1,2,3};
+int b[] = {1,2};
+</code></pre>
+
+<p>how will I find the odd element in array</p>
+","1","<java><arrays>"
+"8996612","Creating multiple arrays from users input","<p>I'm wondering how to create multiple arrays from the users input. Such that if the user enters a 5, it then makes 5 arrays. </p>
+","1","<java><arrays><user-input>"
+"2009210","In Java, why are arrays objects? Are there any specific reasons?","<p>Is there any reason why an array in Java is an object?</p>
+","1","<java><arrays>"
+"2089074","Java Arrays - What are they","<p>From looking at the Java Collections API i see that arrays are not regarded as collections.
+If not what are arrays regarded as?</p>
+","1","<java><arrays>"
+"2099662","how to split the value in an array in java","<p>How do we split the value in an array suppose 124 into three different values 1,2,4?
+<br/>I want this to be done in java.</p>
+","1","<java><arrays>"
+"49923185","How to remove duplicate numbers from an array only without using any collections from java.util in java","<p>Below code snippets shows how to remove duplicate integers from an array without using any collections such as HashSet, ArrayList etc...</p>
+","1","<java><arrays>"
+"2527640","how to generate random number from array","<p>How to generate random number from an array? and not from a range.</p>
+
+<pre><code>int n [] = {1,7,3,5,8,10,33,12,18}
+</code></pre>
+","1","<java><arrays><random>"
+"58669437","can we use ArrayList as value(datatype) in key-value pair of HashMap?","<p>can we use ArrayList as value(datatype) in key-value pair of HashMap?.
+will there be any issues, if it is possible?
+provide an alternative.</p>
+","1","<java><arraylist><hashmap>"
+"10040330","How to extract file extension from byte array","<p>I've got bytes array in database.</p>
+
+<p>How to extract file extension (mime/type) from byte array in java?</p>
+","1","<java><sql><bytearray><mime-types>"
+"10068234","How do you access an array or variable declared or initialized in a nested loop from outside of the loop?","<p>How do you access an array or variable declared or initialized in a nested loop from outside of the loop?</p>
+","1","<java><arrays><string><loops><nested>"
+"10071120","Would java.io.ByteArrayOutputStream.toByteArray() return null?","<p>Just like the title shows, I couldn't find any clue about it in Javadoc.</p>
+","1","<java><null><bytearrayoutputstream>"
+"51114672","How to convert an URL to an Image?","<p>I am using GridView and fetching all urls with data from server in android now i want to convert these url's in to images.</p>
+","1","<java><android><bitmap><android-arrayadapter><android-glide>"
+"41024961","how to display string array?","<p>I want to display an array list in a JList. I have a method that accepts this string...not sure how to approach this</p>
+","1","<java><sql><arrays><string><jlist>"
+"52477492","How to convert oracle.sql.ARRAY to any java collections (for example, to java lists or any)","<p>How to cast oracle.sql.ARRAY to any java collections (for example, to java lists or any others)</p>
+","1","<java><oracle><arraylist>"
+"4962361","Where is Java's Array indexOf?","<p>I must be missing something very obvious, but I've searched all over and can't find this method.</p>
+","1","<java><arrays><indexof>"
+"11331149","How to create 400 dimensional array in java","<p>We can easily create 2,3,4 dimensional array..but i want to know how to create very large dimensional array</p>
+","1","<java><multidimensional-array>"
+"35772162","Create BigInteger Array from int Array","<p>I have an int array with me. Is there a way to convert this int array directly to BigInteger Array without iterating through the elements?</p>
+","1","<java><arrays><int><biginteger>"
+"44119850","Equal ArrayLists (Java)","<p>.containsAll will work but .equals is not working.</p>
+","1","<java><arraylist>"
+"36734301","How to declare a call a 2d array in java?","<p>I am trying to read an image's pixels and fill them in a 2d array; however, I don't know how to declare a global array? any help please?</p>
+","1","<java><arrays><swing><global>"
+"20133119","I need an array or ArrayList that accepts objects of any type","<p>I need to create a method in Java that accepts any number of arrays of any type. I need to know if this is possible and if so how?</p>
+","1","<java><arrays><methods><arraylist>"
+"20140744","How to start iterating through ArrayList from set index?","<p>I have an <code>ArrayList</code> and I want to start iterating through it from, say, index 100 to the end. How do I do that?</p>
+","1","<java><performance><arraylist>"
+"2974251","Free memory of a byte array in Java","<p>What is the best way to release memory allocated by an array of bytes (new byte[size] in Java)?</p>
+","1","<java><bytearray><byte>"
+"5513144","Converting char[] to byte[]","<p>I would like to convert a character array to a byte array in Java.  What methods exists for making this conversion?</p>
+","1","<java><arrays><type-conversion>"
+"20478607","Random values generating","<p>Generating random values when using an array.</p>
+","1","<java><arrays><methods><random>"
+"36593692","How to create 2d Array containing 2d Arraylist? (JAVA)","<p>I want to create a 2D matrix which should contain List of lists. How Can i do it in Java?</p>
+","1","<java><arrays><arraylist><2d>"
+"26622344","How to make the second row of an array point to the first row in C","<p>This works in Java:</p>
+
+<pre><code>int a[][]=new int[2][4];
+a[1]=a[0];
+</code></pre>
+
+<p>But in C it doesn't work.
+Is it possible anyway? </p>
+","1","<java><c><arrays><pointers><object>"
+"12431188","Memory allocation in array of java","<p>I want to know how Java allocates memory for arrays: Is it contiguous or non-contiguous?
+Please give me a suitable example which proves it.</p>
+","1","<java><arrays><memory-management>"
+"10426781","How to move elements of Java ArrayList to file in java","<p>i have a ArrayList containing some peace of command &amp; i want to move all the elements of my list to a file. </p>
+","1","<java><file><arraylist><file-io>"
+"18708660","Is there a function that can sort my integer array values from smallest to largest?","<p>If I had a array containing integers, whats the best way to sort them from smallest to greatest?</p>
+
+<p>Thanks!!!</p>
+","1","<java><arrays><sorting>"
+"6026813","Converting String array to java.util.List","<p>How do I convert a <code>String</code> array to a <code>java.util.List</code>?</p>
+","1","<java><arrays><collections>"
+"8231912","How to escape ArrayIndexOutOfBoundsException?","<p>I was curious to know how I can save myself falling from this exception,i.e how would I get-rid of it in general at least in java.</p>
+","1","<java><arrays>"
+"51273396","Replace \r\r\n with \n in byte array java","<p>I have a ByteArrayOutputStream which I converted toByteArray and after that I need to replace all \r\r\n with \n</p>
+
+<p>How can I do it? </p>
+","1","<java><arrays>"
+"10745656","How to show text randomly chosen from list when button is pressed?","<p>I am trying to develop an app in eclipse that when the button is clicked randomly displays text from a string.</p>
+","1","<java><arrays><string><button>"
+"61390237","Java sorting algorithm problems","<p>I need to make a programm in java with the selection sort algorithm. So i tried this to do that but the code doesn't works. </p>
+","1","<java><arrays><sorting>"
+"3474852","Does initialized java array go onto stack or heap?","<pre><code>void someMethod() {
+  byte[] array = { 0, 0 };
+}
+</code></pre>
+
+<p>Will this array be stored in heap or on the stack?</p>
+","1","<java><arrays><stack><heap>"
+"35253368","How can I create an array in Kotlin like in Java by just providing a size?","<p>How can I create a Array like we do in java?</p>
+
+<pre><code>int A[] = new int[N];
+</code></pre>
+
+<p>How can I do this in Kotlin?</p>
+","1","<java><arrays><arraylist><kotlin>"
+"21127642","How to remove all names from the array list before a certain string?","<p>In an array list, if you add a string, then sort it, then want to delete everything before that string, what would you do?</p>
+","1","<java><collections><arraylist>"
+"33316324","what is the similar ways in Java ArrayList of vector<int> v(100)","<p>I want to make ArrayList size 100 when I initialize.
+How can I do that?</p>
+
+<p>In C++, vector v(100); </p>
+","1","<java><arraylist>"
+"11880534","Retrieving elemnts from an ArrayList by specifying the indexes","<p>Is there a method in Java to get the list of objects from an Arraylist to another ArrayList, by just specifying the start and end index?</p>
+","1","<java><arraylist><indexing>"
+"642897","Removing an element from an Array (Java)","<p>Is there any fast (and nice looking) way to remove an element from an array in Java?</p>
+","1","<java><arrays><element>"
+"19851086","How to put a text file into a string array?","<p>I have a short story with a couple of sentences and I have to transfer that to a string array.</p>
+","1","<java><arrays><text-files>"
+"12961906","Array of 400 ints","<p>Why doesn't Netbeans like this?</p>
+
+<pre><code>int[] newArray = new int[400];
+newArray = {8,2,22,97,...,48};
+</code></pre>
+","1","<java><arrays>"
+"12964800","Is there a way to initialize an array with an enumeration of integers in Java","<p>Is there a way in Java to do something like:</p>
+
+<p>int foo[] = new int[0..n];</p>
+
+<p>i.e </p>
+
+<p>foo[0] = 0</p>
+
+<p>foo[3] = 3</p>
+","1","<java><arrays>"
+"8625247","Merge 3 arraylist to one","<p>I want to merge down 3 arraylist in one in java. Does anyone know which is the best way to do such a thing?</p>
+","1","<java><list><merge><arraylist>"
+"4228606","can I copy an array to a hash table?","<p>I have an array which its elements are float .how can I copy this array to a hash table?</p>
+
+<p>thanks</p>
+","1","<java><arrays><collections><hashtable>"
+"687833","How to get the last value of an ArrayList","<p>How can I get the last value of an ArrayList?</p>
+
+<p>I don't know the last index of the ArrayList.</p>
+","1","<java><arraylist>"
+"33779366","Finding intersection","<p>I have to find the intersection between two Set objects. </p>
+","1","<java><arrays><intersection>"
+"41906559","Is it possible to sort an ArrayList of integers using comparable or comparator?","<p>I am trying to sort an ArrayList using comparable interface. 
+How do I sort ArrayList in descending or ascending order? </p>
+","1","<java><arraylist><collections><comparator>"
+"1565483","Creating a byte[] from a List<Byte>","<p>What is the most efficient way to do this?</p>
+","1","<java><arrays><list><byte>"
+"56861754","How to remove duplicate elements from list<String>?","<p>List list = [""f1,f2"",""f2,f3"",""f4,f5"",""f2,f1"",""f5,f4""];</p>
+
+<p>output list would be
+List uniqueList = [""f1,f2"",""f2,f3"",""f4,f5""]</p>
+","1","<java><arrays><collections><java-8>"
+"1764339","Multi-Dimension length array reflection java","<p>How do I find the length of a multi-dimensional array with reflection on java? </p>
+","1","<java><arrays><reflection>"
+"6828634","Write byte[] to File in Java","<p>How to convert byte array to File in Java?</p>
+
+<pre><code>byte[] objFileBytes, File objFile
+</code></pre>
+","1","<java><arrays><file><file-io>"
+"16525131","When do methods like JNI GetDoubleArrayElements set isCopy to true or false?","<p>When would the VM pin vs copy the arrays involved here?</p>
+
+<p>If you want to minimize memory usage can you force a pin vs a copy?</p>
+","1","<java><arrays><memory><java-native-interface><native>"
+"203984","How do I remove repeated elements from ArrayList?","<p>I have an <code>ArrayList&lt;String&gt;</code>, and I want to remove repeated strings from it. How can I do this?</p>
+","1","<java><list><collections><arraylist><duplicates>"
+"374339","Is there a Java array/list which is statically typed AND variable length","<p>This would be very handy as typecasting gets boring fast.</p>
+","1","<java><arrays><list>"
+"578798","Do 2D arrays use more resources than 1D arrays in Java?","<p>For example, would a full int[50][8] use more resources (RAM and CPU) than 8 full int[50] arrays?</p>
+","1","<java><arrays><resources><cpu>"
+"33325063","Using linear search to check?","<p>I am trying to compare a .txt file that has a list of words, and a String[] array that is also filled with words.</p>
+
+<p>Solved thank you.</p>
+","1","<java><arrays><string>"
+"25115108","How to remove items from array that are smaller than 20 characters?","<p>I have an array in Java.
+I need to remove the items that are smaller than 20 characters.
+Is this possible and how?</p>
+","1","<java><arrays><eclipse>"
+"49489116","Why does hashcode() returns an integer and not long?","<p>In java, hashcode() method, returns integer instead of long. Is there any specific reason? </p>
+","1","<java><arrays><performance><hashcode><bucket>"
+"1072615","double type array use in J2ME","<p>I have use Double type array, it works in Emulator but showing error in mobile, what is  the problem??</p>
+","1","<arrays><java-me><double>"
+"1366303","Java: Copy array of non-primitive type","<p>What is the prefered way to copy an array of a non-primitve type in Java? How about performance issues?</p>
+","1","<java><arrays><copy>"
+"25705053","How much memory is allocated in Java when initializing a Object array?","<p>When Java has no idea how big each element of the array is going to be, how much memory does it allocate?</p>
+","1","<java><arrays><oop><object>"
+"1801044","Array of Dates in Java","<p>I know how to create an array of strings or integers, but how does one create an array of dates :/ </p>
+","1","<java><arrays><date>"
+"3405195","divide array into smaller parts","<p>I would like to divide a large byte array into smaller chunks (say 64 bytes). Please help me with this. </p>
+","1","<java><arrays>"
+"10909787","Avoiding duplicate integers in an integer array","<p>How can duplicate integers being added into an integer array be avoided without using any of the collections i.e. Arraylist or Set etc.?</p>
+","1","<java><arrays><int><duplicates>"
+"40935905","How to create a new array from another array recursive","<p>I am trying to write a method that finds all odd integers from an array and returns a new array with that integers.</p>
+","1","<java><arrays><recursion>"
+"24776970","ArrayList construct and array of capacity?","<p>Will</p>
+
+<pre><code>ArrayList&lt;int&gt;(20);
+</code></pre>
+
+<p>create a maximum of 20 array or is it an illegal syntax?</p>
+","1","<java><arrays><arraylist>"
+"15560378","Quick array conversion from Java to C++","<p>How would I use something like: </p>
+
+<pre><code>int array[][] = {{0,0,0},{1,0,0}};
+</code></pre>
+
+<p>...which is Java code in C++?</p>
+","1","<java><c++><arrays><multidimensional-array><porting>"
+"4400642","best way to convert an array of strings to a vector?","<p>As the title suggests, what is the best method for converting an array of strings to a vector?</p>
+
+<p>Thanks</p>
+","1","<java><arrays><vector>"
+"286161","How can I see if an element in an int array is empty?","<p>example:</p>
+
+<p>I want to see if <code>array[5]</code> holds a value or is empty.</p>
+","1","<java><arrays>"
+"4421843","Why does ensureCapacity() in Java ArrayList extend the capacity with a const 1.5 or (oldCapacity * 3)/2 + 1?","<p>Why does ensureCapacity() in Java ArrayList extend the capacity with a const 1.5 or (oldCapacity * 3)/2 + 1?</p>
+","1","<java><arraylist><capacity>"
+"4427295","What is the different between a stackoverflow and arrayindexoutofbounds?","<p>It seems like in reality these should be almost identical. You are referencing or sticking data where it shouldn't go.</p>
+","1","<java><arrays><stack-overflow>"
+"47048895","How do I see if an array index I'm accessing is out of range of the array?","<p>Is there anyway I can use some boolean expression to see if what I want to access is out of bounds?</p>
+","1","<java><arrays><boolean><indexoutofboundsexception>"
+"440430","Java sort String array of file names by their extension","<p>I have an array of filenames and need to sort that array by the extensions of the filename. Is there an easy way to do this?</p>
+","1","<java><arrays><file><sorting><filenames>"
+"8607090","The best way to convert array elements as keys in a new dictionary","<p>What is the best way to convert array elements as keys in a new dictionary ?</p>
+","1","<java><arrays><dictionary>"
+"38684014","Can rows have different column count?","<p>Is it possible that I can have arrays which its rows have different column count?</p>
+","1","<java><arrays>"
+"30531000","Array vs. ArrayList - Why would you use one over the other?","<p>So I understand that an ArrayList has a variable length unlike an Array, but what are some of the advantages of using one over the other?</p>
+","1","<java><arrays><arraylist>"
+"38733640","Size of the list does not match the ones it has","<p>I have a list with 20 elements, but it contains a null value at the 15 position, how can I remove the null value from an <code>List</code>?</p>
+","1","<java><android><json><arraylist>"
+"1515437","Java: function for arrays like PHP's join()?","<p>I want to join a <code>String[]</code> with a glue string. Is there a function for this?</p>
+","1","<java><php><arrays><join>"
+"58339177","Why Array initializer is not Allowed here? What is the problem","<pre><code>class Main {
+    public static void main() {
+
+        int[] array = new int[5] {1,2,3,4,5};
+
+    }
+}
+</code></pre>
+","1","<java><arrays><initializer>"
+"48521909","Whats the equivalent of Java Arrays.copyOfRange in Go?","<p>I'm working on the creating a Java library that deals with management of Arrays. Is there an equivalent of Arrays.copyOfRange in Go?</p>
+","1","<java><arrays><go>"
+"40634679","Is there a way to put ""continue"" inside a foreach arraylist","<p>break and continue statements do not work in Array.forEach(..). 
+Is there any other way to do that ?</p>
+","1","<java><arrays><java-8><break><continue>"
+"6867484","What is a List vs. an ArrayList?","<p>What are the fundamental differences between the two objects? Is one more efficient? Does one have more methods?</p>
+","1","<java><list><arraylist>"
+"60149966","Why int[] aa={'12','2'}; is invalid and int[] aa={'1','2'}; is valid? error showing is Invalid character constant","<p>Why int[] aa={'12','2'}; is invalid and int[] aa={'1','2'}; is valid? </p>
+
+<p>error showing is Invalid character constant.</p>
+","1","<java><arrays>"
+"23345232","Can Multidimensional Arrays how two different types in them within java","<p>Can a multidimensional array in java have two types like a string and double in it?</p>
+
+<p>Like: {name, num},{name, num} </p>
+","1","<java><arrays>"
+"45101681","Find all combinations that gives the result A[i]+B[j]=C[k] with 3 arrays at O[n^2]","<p>There are 3 arrays, every array has a size of <code>N</code>. Find the combinations that give <code>A[i]+B[j]=C[k]</code> at only O[n^2].</p>
+","1","<java><arrays><algorithm><combinations><equation>"
+"16109517","Does the contains() method in Java ArrayList use binary search?","<p>Does the contains() method in Java ArrayList use binary search? Or do I need to use Collections to do this instead?</p>
+","1","<java><arraylist><contains><binary-search>"
+"43626451","What is the base class for byte array","<p>I would like to know what is the base class for byte array (byte[]) in java. For   example for String it is java.lang.String.</p>
+","1","<java><arrays>"
+"7952700","Are there perfomance benefits with ArrayList.ensureCapacity()?","<p>Are there any performance benefits if i call ArrayList.ensureCapacity() method. In what case it is advisable to make use of the method?</p>
+","1","<java><performance><collections><arraylist>"
+"7978108","How do you avoid an ArrayList object from being modified, i.e. avoid adding and deleting its content?","<p>How do you avoid an ArrayList object in (Java) from being modified, i.e. avoid adding and deleting its content </p>
+","1","<java><arraylist>"
+"7986688","Java - It's possible add an int and an String in the array?","<p>It's possible add an int and an String in the array ? I said in the same array.</p>
+","1","<java><arrays>"
+"8000243","Get mimetype from byte array without external lib","<p>Someone know one method to get the mime type from byte array? Attention, i want to do that without external library, only native java.</p>
+","1","<java><bytearray><mime-types>"
+"43699929","What is the difference between a indexed linked list and a array list?","<p>I am confused because both of these contain an index, so a indexed linked list has nodes and indexes? While array list only has indexes? </p>
+","1","<java><arraylist><data-structures><linked-list>"
+"30977774","Is it possible to dynamically initialize an array using ""java.lang.reflect.Array"" dynamically in Java?","<p>I want to dynamically initialize an array having a size as specified by the user.</p>
+","1","<java><arrays>"
+"21025225","compare int before its placed into an array?","<p>Fill an Array with no duplicate numbers. eg 1, 2, 3, 4, 5, 6, 7: is ok, but 1, 2, <strong>3, 3</strong>, 4, 5,... for example is not?</p>
+","1","<java><arrays><loops><int>"
+"11278974","Using a List and importing java.awt.* at the same time","<p>Whenever I import java.awt.* and try to use a List 
+ I get an error. </p>
+
+<p>Is there any way to import java.awt.* and use a List?</p>
+","1","<java><arraylist>"
+"11285573","How can I create an array of classes in Java?","<p>I have various classes and was wondering how to create an array of classes so I can run them simultaneously</p>
+","1","<java><arrays><class>"
+"40713234","How to save a line of user inputted integers into an array?","<p>How would I be able to take a group of numbers inputted on a single line by the user (however many they want) and put them in to an array? </p>
+","1","<java><arrays><sorting>"
+"40729079","How to create a loop for","<p>I need to create a loop that adds ""o"" after each consonant</p>
+","1","<java><arrays><loops><for-loop><char>"
+"60315128","How to get an array of character (A-z, no numbers) from a given string?","<p>I need a java regex to answer my question.</p>
+
+<p>this is my code:</p>
+
+<pre><code>char[] array = s.split(""regex"");
+</code></pre>
+","1","<java><arrays><string><char>"
+"29390471","Java declaring an array. What is the difference?","<p>What is the difference between this two declaration in java?</p>
+
+<p>public int hashes[];</p>
+
+<p>public int[] hashes;</p>
+","1","<java><arrays>"
+"38233852","Matrix : get value from given matrix","<p>It's possible to print a matrix values as per below image</p>
+
+<p><img src=""https://i.stack.imgur.com/DHjTZ.png"" alt=""The Matrix""></p>
+","1","<java><c++><c><arrays>"
+"54858427","Subclasses of collection in Java","<p>I am studying Collections in Java. What exactly are the subclasses of a Collection? Are they ArrayList, Lists, etc?</p>
+","1","<java><arrays><class><collections><subclass>"
+"11641985","Which comes first in a 2D array, rows or columns?","<p>When creating a 2D array, how does one remember whether rows or columns are specified first?</p>
+","1","<java><multidimensional-array>"
+"5283444","Convert array of strings into a string in Java","<p>I want the Java code for converting an array of strings into an string.</p>
+","1","<java><arrays><string>"
+"5474656","Converting from HashSet<String> to String[]","<p>What's the best way to convert <code>HashSet&lt;String&gt;</code> to <code>String[]</code>?</p>
+","1","<java><arrays><hashset>"
+"15737631","Store my values as strings in the next row of the array? two-dimensional array?","<p>I need to use a 2 dimensional array as part of the assignment.</p>
+","1","<java><arrays><multidimensional-array>"
+"16203595","How do you get the user to name an array in Java?","<p>I know how to name an array when writing a program in Java, but how do I write it to where it ask the user for the name of the array?</p>
+","1","<java><arrays><naming>"
+"39604157","In android studio how can i take input in EditText field as a number eg; 1452 and convert it into integer array{1,4,5,2}","<p>I want to sort an array. I am not able to figure out how to take input from edittext field and convert single digits into array.</p>
+","1","<java><android><android-layout><android-studio><android-arrayadapter>"
+"31811361","deleted deleted deleted","<p>this question was wrong so i edited this to blank</p>
+","1","<java><android><arraylist>"
+"63514197","What happens when there are less elements in ArrayList than its capacity?","<p>Say capacity is 10, I add 5 elements to ArrayList. Would they take 5 or 10 elements size in memory?</p>
+","1","<java><arraylist>"
+"63990703","Is there a difference between new Class[]{} and new Class[0]?","<p>Is there a difference between <code>new Class[]{}</code> and <code>new Class[0]</code>? If yes, what is different?</p>
+","1","<java><arrays>"
+"32492556","Can I store string in object array by using this string as index?","<p>Can Java use a String as an index array key?</p>
+
+<p>Example:</p>
+
+<pre><code>array[""ab""] = ""ab"";
+</code></pre>
+","1","<java><arrays>"
+"32537080","How to delete a line from a textfile using java?","<p>I wanted to delete a line from a textfile</p>
+","1","<java><arrays><sorting><file-io><text-files>"
+"32538460","how to adjust line number in textfile using java?","<p>how to adjust line number in textfile using java?</p>
+","1","<java><arrays><sorting><file-io><text-files>"
+"7584467","Java array declaration without hard coding the size","<p>How can I initialize an array of objects of a class in another class without hardcoding its size?</p>
+","1","<java><arrays><collections><size><hardcode>"
+"32664647","to create rows and columns","<p>I understand that I can create the rows and columns using nested for loops </p>
+","1","<java><arrays>"
+"31056815","Anonymous arrays in Java","<p>What is the utility of anonymous arrays compared to arrays shortcut?
+In what scenario anonymous arrays are used?</p>
+","1","<java><arrays>"
+"31086565","Printing elements from Nth index onward in an array","<p>I'm trying to find a way to take an array of five integers and print the last three. What's the best way to do this?</p>
+","1","<java><arrays><loops>"
+"64586481","Can you create a code in array form with this?","<p>Write a Java program that keeps a number from the user and generates an integer between 1
+and 7 and displays the name of the weekday.</p>
+","1","<java><arrays><computer-science>"
+"48123844","How to remove duplicated elements in a List?","<pre><code>List&lt;Integer&gt; list = new ArrayList&lt;&gt;(1,2,1,3,5);
+</code></pre>
+
+<p>output will be [2,3,5] without 1 </p>
+","1","<java><arraylist>"
+"30014741","ArrayUtils.reverse() Usage","<p>What is the correct format for ArrayUtils.reverse?</p>
+","1","<java><arrays><reverse>"
+"18379513","Syntax for adding values to the arraylist of array","<p>How do you assign values to <code>ArrayList&lt;int[]&gt;</code>, like you do with 2D array <code>anArray[0][0] = val</code> ?</p>
+","1","<java><arrays><vector><multidimensional-array>"
+"34600833","I want to populate a single element in a 2D array randomly with a single char value?","<p>How can I randomly choose a single element out of a 2D array and fill that one element with char 'M'?</p>
+","1","<java><arrays><multidimensional-array>"
+"3384203","Finding an element in an array in Java","<p>Does Java have a built-function to allow me to linearly search for an element in an array or do I have to just use a for loop?</p>
+","1","<java><arrays>"
+"3767979","How much data can a List can hold at the maximum?","<p>How much data can be added in java.util.List in Java at the maximum?</p>
+
+<p>Is there any default size of an ArrayList?</p>
+","1","<java><arraylist><size>"
+"4321151","How to Pass Array from One Servlet to Another Servlet?","<p>I want to pass multiple values from one servlet to another one servlet. Please tell me how to pass that?</p>
+","1","<java><arrays><servlets>"
+"52368350","How can I override next() for jagged array java?","<p>I have a jagged array.
+How can I override <code>next()</code>, so I can get its elements step-by-step?</p>
+","1","<java><iterator><next><jagged-arrays>"
+"43868588","largest increasing sequence of array","<p>There is an array in which elements are like [1,2,3,4,1,2,3,4,5,1,2,3,4,5,6] so i need to find the largest increasing sequence in this array</p>
+","1","<java><arrays>"
+"2265266","Convert Hash Map to 2D Array","<p>What is the easiest way to convert a HashMap  into a 2D array?</p>
+","1","<java><arrays><hashmap>"
+"18546555","Why is there array copy method in class System?","<p>Why is there array copy method in class System? It seems it is not much with system stuff.</p>
+","1","<java><system><arrays>"
+"34731546","Allow arrayList to take in three columns of data from CSV","<p>I am stuck on how to be able to load a CSV that </p>
+","1","<java><csv><arraylist>"
+"18560452","Java library that perform sorting of primitives array with custom comparator","<p>Does anybody see library that can solve this problem? Default array sorting can't deal with custom comparators.</p>
+","1","<java><arrays><sorting><primitive>"
+"34770246","Is there a way to see if certain integers are in certain places within an arraylist?","<p>For example, if an arraylist holds the values [1, 2, 3], is there any way to check if they are in that order using indexOf or any other way?</p>
+","1","<java><netbeans><arraylist><int><indexof>"
+"10151867","Getting values from arraylists and saving","<p>Need help in getting values from arraylist then save to another arraylist (which is in another class file)</p>
+","1","<java><android><database><sqlite><arraylist>"
+"3929258","Efficient array elements un-ordering in Java","<p>I just wanted to know what is the best way to un-order the elements in an ordered array in Java, 
+Thanks</p>
+","1","<java><arrays><algorithm>"
+"19345260","How to edit elements in array of class type in java?","<p>How can I edit a single element in array of a class type. For example how
+can I assign a name and description for element 1?</p>
+","1","<java><arrays><sorting>"
+"3981821","Java array to multi dimensional","<p>Is it possible to take an array of say 100 chars and turn it into a 2d array of 10*10?</p>
+","1","<java><arrays>"
+"3982550","Creating an Arraylist of Objects","<p>How do I fill an ArrayList with objects, with each object inside being different?</p>
+","1","<java><android><object><arraylist>"
+"26925556","Why the new capacity of arraylist is (oldCapacity * 3)/2 + 1?","<p>Why does ensureCapacity() in Java ArrayList extend the capacity with a const 1.5 or (oldCapacity * 3)/2 + 1?</p>
+","1","<java><arraylist>"
+"4097088","How to read a file into a Java Bitmap?","<p>I know how to read a bitmap file into a byte array. How is the byte array then converted to a Java Bitmap?</p>
+","1","<java><android><file-io><bitmap><bytearray>"
+"3467965","How does ArrayList work?","<p>What data structure does an ArrayList use internally?</p>
+","1","<java><arraylist>"
+"3582502","Best way to create singleton array","<p>What is the ""easiest"" way for you to create a singleton (with exactly one element) Objects array in Java ?</p>
+","1","<java><arrays>"
+"4612471","Why does Java allow arrays of size 0?","<p>Arrays in java are fixed in length. Why does Java allow arrays of size 0 then?</p>
+
+<pre><code>String[] strings = new String[0];
+</code></pre>
+","1","<java><arrays>"
+"4642303","Array handling Algorithms","<p>Given an array of integers, give two integers from the array whose addition gives a number N.</p>
+","1","<java><arrays>"
+"4671858","deepHashCode with byte array","<p>For some reason, <code>Arrays.deepHashCode()</code> cannot work with <code>byte[]</code>.<br>
+Is there any other equivalent?</p>
+","1","<java><arrays><hashcode>"
+"4676229","Memory Address of Array - Java","<p>Does anybody know to get the memory addresses of an array indexes?
+(like in c)</p>
+","1","<java><arrays><memory-address>"
+"4703550","Android opengl modify vertex array after draw call","<p>In opengl, is it bad practice or not recommended to modify the vertex array after I have drawn it?</p>
+","1","<java><android><arrays><opengl-es><vertex>"
+"4042849","Can I add a group of ArrayList into a single ArrayList?","<p>Can I add a group of ArrayList into a single ArrayList?
+The ArrayList groups are of different sizes. Then How can I recognize each ArrayList?</p>
+","1","<java><android><arraylist>"
+"4042434","Converting 'ArrayList<String> to 'String[]' in Java","<p>How might I convert an <code>ArrayList&lt;String&gt;</code> object to a <code>String[]</code> array in Java?</p>
+","1","<java><arrays><string><arraylist><collections>"
+"4060538","Maximum number of dimensions in a Java array","<p>Out of curiosity, how many dimensions of an array can you have in Java?</p>
+","1","<java><multidimensional-array>"
+"4737311","In Java, do primitive types and arrays have a containing package?","<p>In Java, do primitive types and arrays have a containing package?</p>
+
+<p>Probably not, but just want to be certain.</p>
+","1","<java><arrays><packages><primitive-types>"
+"4779173","Can you extend ArrayList in Java?","<p>Is it possible to make a child class that extends ArrayList? If so, how?</p>
+","1","<java><arraylist><extend>"
+"38077529","Java print(); method with getters from a different class","<p>Deleted by request of academic institution
+I am unable to provide examples</p>
+","1","<java><arrays><arraylist><getter-setter>"
+"61982079","how to create any array list of **numbers** and not strings?","<p>how can we create an Array list that accepts only the numbers like <strong>int ,float ,double</strong> but not all data types</p>
+","1","<java><arrays><arraylist>"
+"16281618","Storing values of string array in variables in java","<p>I am very new to java.<br>
+I have string array,words[i].<br>
+How can i store the each value as a variable instantaneously?  </p>
+","1","<java><arrays>"
+"39136210","Arraylist element index before and after Collections.shuffle in java","<p>How can i compare before and after shuffle arraylist element and get the position of original arraylist?</p>
+","1","<java><arraylist>"
+"11948148","Is it possible to initialize array in an interface?","<p>Is it possible to initialize an array in an interface using a <code>for</code> instruction?</p>
+","1","<java><arrays><collections><interface><initialization>"
+"36375074","how to create a method that uses 2D array in java","<p>I'd like to create a method that counts how many times 
+a number is occurred in a 2D array.
+using for loop</p>
+","1","<java><for-loop><multidimensional-array>"
+"12034918","Converting byte[] or String to Dom Document","<p>How can i convert a byte[] or a String which holds my XML, to a DOM Document?</p>
+
+<p>I need this in order to perform XPath on the Documnet.</p>
+","1","<java><dom><bytearray>"
+"46865652","Java: Why is getting the length of an array O(1)?","<p>Doesn't it have to count every element in the array? Thus, not a constant number of operations, so O(n)?</p>
+","1","<java><arrays><algorithm><time-complexity>"
+"23079003","How to convert a Java 8 Stream to an Array?","<p>What is the easiest/shortest way to convert a Java 8 <code>Stream</code> into an array?</p>
+","1","<java><arrays><java-8><java-stream>"
+"20281335","Method for converting boolean array to binary java","<p>Is there already a specific method for converting a Boolean array to a binary array or would I just need a for loop?</p>
+","1","<java><arrays><binary><boolean>"
+"29294113","What is the difference between these two statements in Java?","<pre><code>int[] X = {1,2,3}; 
+int[] Y = new int[] {1,2,3}
+</code></pre>
+
+<p>Will the content of array X also be stored on heap?</p>
+","1","<java><arrays><object><heap-memory>"
+"2707605","Java ArrayList Middle","<p>How to find the middle of an ArrayList ?</p>
+","1","<java><collections><arraylist>"
+"9884908","Get Filename from Byte Array","<p>We can extract the mimetype from byte array, e.g., by using Apache Tika. </p>
+
+<p>Is it possible to get Filename from Byte Array.</p>
+","1","<java><bytearray><filenames><apache-tika>"
+"42545941","Google maps android store List of Routes in a List","<p>Is it possible to store the ""list of routes"" inside a list? How to do it please? I need help.</p>
+","1","<java><android><arraylist><google-maps-android-api-2>"
+"18085279","Why is it important to learn about Arrays when we have ArrayLists?","<p>I am curious as to why Arrays are used when you could use an ArrayLists instead? Wouldn't it always be better to use an ArrayList?</p>
+","1","<java><arrays><data-structures>"
+"26355786","How to use an enum for an array subscript in Java","<p>How do you use an enum for an array subscript?</p>
+
+<pre><code>enum {VALUE_ONE, ... , SIZE};
+int[] x = new int[SIZE];
+</code></pre>
+","1","<java><arrays><enums>"
+"3038392","Do Java arrays have a maximum size?","<p>Is there a limit to the number of elements a Java array can contain? If so, what is it?</p>
+","1","<java><arrays>"
+"34999539","Sorting an array of integers in time complexity of o(n) or o(1)","<p>What is the best algorithm that could sort an array of integers from 1 to 4 (very simple), in a time complexity of o(n) or less?</p>
+","1","<java><arrays><sorting>"
+"10569724","How can I restrict the arraylist to accept only a specfic type of object prior to generic","<p>How can we restrict the arraylist to accept only a specfic type of object prior to generic</p>
+","1","<java><generics><collections><arraylist>"
+"3279447","java array sorting","<p>how to sort an simple array logically (for both string &amp; int) ?</p>
+
+<p>without using Arrays.sort(arr) or any comparators.</p>
+","1","<java><arrays>"
+"11540990","Android equivalent for org.apache.commons.io.IOUtils.toByteArray","<p>I need to call the ""toByteArray"" method on a CipherInputStream variable, or use an utility class. Which is the Android code to do so?</p>
+","1","<java><android><apache><bytearray><encryption>"
+"11986593","Java: How to convert String[] to List or Set","<p>How to convert String[] (Array) to Collection, like ArrayList or HashSet?</p>
+","1","<java><arrays><collections><converter>"
+"36521411","How do I convert a byte to an array of eight booleans","<p>I have a signed byte and I would like to convert it to an array of eight Boolean primitives in Java.</p>
+
+<pre><code>byte b = 64;
+</code></pre>
+","1","<java><arrays><binary><boolean><byte>"
+"36523640","Whats wrong with the following code","<p>Why isn't the following code working ?</p>
+
+<pre><code>String s = ""fecbda"";
+Arrays.sort(s.toCharArray());
+System.out.println(s);
+</code></pre>
+","1","<java><arrays><to-char>"
+"5244268","How to store arrayList into an array in java?","<p>How to store arrayList into an array in java?</p>
+","1","<java><arrays><arraylist>"
+"36680772","What array types CANNOT be supplied for T when constructing an ArrayList<T> collection?","<p>From what I understand, Objects can be supplied for T, but are there any array types that cannot be supplied for T collection?</p>
+","1","<java><arraylist>"
+"5683206","How to create an array of 20 random bytes?","<p>How can I create an array of 20 random bytes in Java?</p>
+","1","<java><arrays><random>"
+"5688042","How to convert a Java String to an ASCII byte array?","<p>How to convert a Java String to an ASCII byte array?</p>
+","1","<java><arrays><string><ascii><bytearray>"
+"5693394","Byte array to image in J2ME?","<p>How can I convert a byte array to an image in J2ME ?</p>
+","1","<image><java-me><bytearray>"
+"362367","Java Arrays & Generics : Java Equivalent to C# IEnumerable<T>","<p>So in C#, I can treat a <code>string[]</code> as an <code>IEnumerable&lt;string&gt;</code>.</p>
+
+<p>Is there a Java equivalent?</p>
+","1","<java><arrays><generics>"
+"3440082","java vector to arraylist","<p>Is there any way to copy or convert a vector to arraylist in Java?</p>
+","1","<java><vector><arraylist>"
+"35223661","How to implement a stack of integers in array in Java Collection Framework as a variable-size array?","<p>The question is how to implement a stack of integers in an array in Java Collection Framework as a variable-size array?</p>
+","1","<java><arrays><collections><array-algorithms>"
+"808394","How to check whether the elements of an ArrayList are all contained in another ArrayList","<p>How can I easily check to see whether all the elements in one ArrayList are all elements of another ArrayList?</p>
+","1","<java><arraylist><subset><containment>"
+"3852867","2D Array Question Java","<p>If I have a 2D array <code>arr[rows][columns]</code>, how could I use <code>arr.length</code> to find size for rows and columns individually?</p>
+","1","<java><arrays><multidimensional-array>"
+"3867151","Possible to return a String array","<p>Is it possible to make a method that returns a <code>String[]</code> in java?</p>
+","1","<java><arrays><class><object><methods>"
+"3899696","Java Scanner() to read from Array","<p>I know you can set the input for a scanner in Java.
+Is it possible to feed an array to the scanner?</p>
+","1","<java><arrays><java.util.scanner>"
+"4543250","Java Array Destroy","<p>If I use ""Array_Name[] = NULL"", does the garbage collector of java collect the rest of the array?</p>
+","1","<java><arrays><null>"
+"9049877","Running time of lastIndexOf for an ArrayList in java","<p>What is the running time of <code>lastIndexOf</code> for <code>ArrayLists</code> in Java?</p>
+","1","<java><arraylist>"
+"4830955","Java getting array keys","<p>Is there an equivalent function to array_keys in Java?</p>
+
+<p>Either in the form of arrays or array lists.</p>
+","1","<java><php><arrays><function>"
+"9100780","List Properties and Convert to String[]","<p>Is there any way to get a list of properties name from <code>Properties</code> and convert it into a <code>String[]</code>?</p>
+","1","<java><arrays><properties>"
+"49832401","How to convert java list to array in scala?","<p>How to convert java.util.list[POJO] to Scala array[POJO]?
+I tried list.toArray method but  it gives array[object].
+Can anyone help on this?</p>
+","1","<java><arrays><scala><list><collections>"
+"1482232","Java ( Counting Distinct Integers )","<p>how do you return number of distinct/unique values in an array for example</p>
+
+<pre><code>int[] a = {1,2,2,4,5,5};
+</code></pre>
+","1","<java><arrays><unique><distinct>"
+"11353768","Converting a double[] array into string[] array","<p>I would like to know what code to use to convert a double[] array into a string[] array</p>
+","1","<java><arrays><type-conversion>"
+"1114400","Using generics for arrays","<p>Is it possible to use generics for arrays?</p>
+","1","<java><arrays><generics>"
+"6178821","How can I get the unique elements of an unordered character array in Java?","<p>If I have an unordered character array, how can I get the unique elements?</p>
+","1","<java><arrays>"
+"36306311","How to sort an Array of Points by MergeSort in Java?","<p>I created Point class and I have an array list of Point objects, which I want to sort by mergesort.</p>
+","1","<java><arrays><sorting><mergesort>"
+"1288237","When is an ArrayList preferable to an array in Java?","<p>When should I use an ArrayList in Java, and when should I use an array?</p>
+","1","<java><arrays><data-structures><collections>"
+"1291704","How do I populate a JComboBox with an ArrayList?","<p>I need to populate a JComboBox with an ArrayList.  Is there any way to do this?</p>
+","1","<java><swing><arraylist><jcombobox>"
+"5353444","Getting an array list of all images on SD card","<p>Can someone give me a hint how to get an array list of all images on my SD card?</p>
+","1","<java><android><arrays>"
+"1716110","What is the best way to combine several arrays into one single array","<p>Hey, I was trying to combine several arrays of type double into one single array, what is the best way to do it? Thanks!</p>
+","1","<java><arrays>"
+"5105065","Java: Clob to byte[]","<p>How can I read a java.sql.Clob into a byte[]?</p>
+","1","<java><sql><bytearray><clob>"
+"46939297","How can I convert String[][] to ArrayList<String>?","<p>Is there any possibility to convert String[][] to ArrayList?</p>
+
+<p>Thanks in advance.</p>
+","1","<java><arraylist>"
+"16325168","How to find the maximum value in an array?","<p>In java, i need to be able to go through an array and find the max value. How would I compare the elements of the array to find the max?</p>
+","1","<java><arrays><for-loop><max>"
+"5411449","Why use two different algorithm for sorting arrays?","<p>In the Arrays class quick sort is used for sorting primitives but for sorting objects, it's merge sort. </p>
+
+<p>I wonder why this is so?</p>
+","1","<java><arrays><algorithm><sorting>"
+"5617175","ArrayList replace element if exists at a given index?","<p>How to replace element if exists in an ArrayList at a given index?</p>
+","1","<java><arraylist>"
+"28646889","How to reference a subarray of a two dimensional array as a single dimensional array in java","<p>I have a two dimensional array myArray[a][b]
+what is the most elegant way of referencing the
+single dimension array myArray[a][2] in Java.</p>
+","1","<java><arrays>"
+"6720108","How to use a char array in java if the size is unknown?","<p>If I don't know the size of array of chars I'm using, is there a way to use it without setting the size upfront ? </p>
+","1","<java><arrays>"
+"1740136","list of 2D array in java","<p>i have set of 2D arrays and i want store all 2D arrays into single list how can do this in java?</p>
+","1","<java><list><collections><multidimensional-array>"
+"6565941","Is there any use of making an array final (immutable) in Java?","<p>Is there any reason why one would declare a array final?
+say something like this </p>
+
+<pre><code>final int[] array={1,2,33,21,11};
+</code></pre>
+","1","<java><arrays><object-oriented-analysis>"
+"28747534","Why doesn't ArrayList class have a newInstance() method?","<p>Just a theoretical question, shouldn't the method call the empty constructor and thus return an empty list?</p>
+","1","<java><arraylist><collections>"
+"53177769","How to convert a chess co-ordinate into row, column for 2D array","<p>I'm totally stumped, and wondered if anyone knew a way to convert a user input of ""a1"" in chess to [][] in a 2D array?</p>
+","1","<java><arrays><chess>"
+"61051439","How to write 2d arraylists in java?","<p>I know how to write <code>arraylists</code>, but don't quite know how to write <code>2d arraylists</code>. Can you guys help me?</p>
+","1","<java><arraylist>"
+"45362226","How can I insert into an AVL tree that does not use rotation?","<p>I want to insert a vector with generic elements into an AVL tree without using rotations, It's possible?</p>
+","1","<java><arrays><generics><tree><avl-tree>"
+"13651771","C++ to java array conversions","<p>How can i convert a short* from c++ to a jshortArray from java?</p>
+
+<p>I'm looking for some documentation online, but it's not easy to find.</p>
+","1","<java><c++><arrays><java-native-interface>"
+"53289687","JAVA 8 : How to initialize List Of List in one line","<p>Hello i want to initialize List Of list in one line </p>
+
+<pre><code>List&lt;List&lt;Integer&gt;&gt; list = .....;
+</code></pre>
+
+<p>Thanks</p>
+","1","<java><list><arraylist>"
+"61114530","Array index value increment ?i am trying to understand this - count[str.charAt(i)]++","<p>I'm having this doubt in this line of code, what will be array size when this code is executed:</p>
+
+<p><code>count[str.charAt(i)]++</code></p>
+","1","<java><arrays><data-structures>"
+"7232111","Java Array of Bytes","<p>If I create an array of bytes with <code>byte[]</code>, what would be the size of each element? Can they be resized/merged?</p>
+
+<p>Thanks,</p>
+","1","<java><bytearray>"
+"13712648","How do you store three different objects in a list array in Java","<p>I need to create a list array in java that can hold three different objects (Surname, forename, Result) and was wondering how to do that</p>
+","1","<java><arrays><object><arraylist>"
+"28148696","How can I convert a video to byte array and then byte array back to video in parse?","<p>I am working on a project where I need to first convert video to byte array to reduce its size and then convert it back to video.</p>
+","1","<java><android><arrays><parse-platform>"
+"21395722","How do i make an arraylist in one class point to the same arraylist in another class? Java","<p>How do i make an arraylist in one class point to the same arraylist in another class without having to make a new arraylist or object? </p>
+","1","<java><arraylist>"
+"45006250","How do I create an array that contains numbers and char?","<p>How do I create an array that contains numbers and char?
+I need do create an array the should be looked like this: 3 / 1</p>
+","1","<java><arrays>"
+"28194623","Hive: apply lowercase to an array","<p>In Hive, how do I apply the lower() UDF to an Array of string?
+Or any UDF in general. I don't know how to apply a ""map"" in a select query</p>
+","1","<java><arrays><string><hive><lowercase>"
+"9637130","Java equivalent of C# Array.GetLength(i)","<p>Does Java have a function that gets the length of a specified dimension of a multidimensional array?</p>
+","1","<java><multidimensional-array>"
+"42336445","How do I return true if ArrayList<Double> is empty?","<p>How do I Return true if the ArrayList is empty, false otherwise? </p>
+","1","<java><arraylist>"
+"40415608","Display numbers in characters as integers","<pre><code>int value = 1234;
+char[] chars = String.valueOf(value).toCharArray();
+</code></pre>
+
+<p>How would I display those value as integers?</p>
+","1","<java><arrays>"
+"21911684","why is it that we can't use ArrayList.get(-1) to get the last element of the ArrayList in java? it works in python though","<pre><code>ArrayList.get(-1) // why it will not return the last element?
+</code></pre>
+","1","<java><arraylist>"
+"37619136","Inventory Program Java Help Needed","<p>I am making an inventory program in java, I need to getItem from the index. I am a bit confused how to return the item from the index.</p>
+","1","<java><arrays><class><object>"
+"29153404","How to access an array thread safely in Java?","<p>Are operations on arrays in Java thread safe?</p>
+
+<p>If not how to make access to an array thread safe in Java for both reads and writes?</p>
+","1","<java><multithreading><arraylist><thread-safety>"
+"29153053","how can i compare an element stored in an Arraylist with an integer?","<p>i want to check elements in the ArrayList with integers given by users to see if that integer is already there in the list or not.</p>
+","1","<java><arraylist>"
+"22083312","Java Check Position of Array is not """" (Empty)","<p>I have a string array, and I want to check how many values in the array are empty. Can anyone help me out? Thanks!</p>
+","1","<java><arrays>"
+"11624220","Java - adding elements to list while iterating over it","<p>I want to avoid getting <code>ConcurrentModificationException</code>. How would I do it?</p>
+","1","<java><arraylist><iterator>"
+"60664693","arrays (little a) work in java without the import statement (import java.util.Arrays), why is this?","<p>Edit: Previous question was not clearly worded sorry.
+I was talking about the general arrays working such as int[], String[], char[], ect.</p>
+","1","<java><arrays>"
+"58930693","New String value on each execution","<p>There are 5 string values  (List).  Every time the code is executed it should pick up a different value from the previous one.</p>
+","1","<java><string><list><arraylist>"
+"28523632","How can I define a method that can return the biggest variable in a array","<p>Like the title how it can accepts   an  array   of  int and returns the largest value   from    the array</p>
+","1","<java><arrays>"
+"5804550","How can I convert a String to a char array?","<p>Is there any function to do this kind of job or do one have to parse each char and add it to the array?</p>
+","1","<java><string><arrays>"
+"5814791","sorting string arraylist in android","<p>I have a string arraylist called <em>names</em>.  How do I sort the arraylist in alphabetical order?</p>
+","1","<java><sorting><arraylist>"
+"12523961","Why java allows private String[][] var[]","<pre><code>private String[][] var[]
+</code></pre>
+
+<p>This code compiles. But shouldn't they make the array on type or variable?</p>
+","1","<java><arrays><variables>"
+"5842213","Checking a column in 2-Dimensional Array","<p>i want to check only columns in a 8x8 array.is it require two for loop or only one for loop.</p>
+","1","<java><arrays>"
+"28666715","Is it possible to delete index of an array in java?","<p>I know that following similar thing is possible:-</p>
+
+<ul>
+<li>to delete a character from an array(by replacing with bblank space)</li>
+</ul>
+","1","<java><arrays>"
+"28214631","Sorting an array of String based on the strings sizes (length)","<p>How do I sort an an array of <code>String</code> based on the strings sizes i.e <code>String#length</code>?</p>
+","1","<java><arrays><string><sorting>"
+"13842670","An array only allowing certain values 0-9 & A-F for Java","<p>Full working now and code is complete Thanks for the help.</p>
+","1","<java><arrays><rgb>"
+"5157664","Java: How to convert a String of Binary values to a Float and vice-versa?","<p>How do I convert the float value of 12345.12346f to a String of binary values, i.e. ""0011010101010101"", and vice-versa?</p>
+","1","<java><floating-point><bytearray><type-conversion>"
+"7705500","How to convert int [] to Big Integer?","<p>I would like to convert an integer array of values, which was original were bytes.</p>
+","1","<java><arrays><biginteger>"
+"13878437","How to fill an array of characters from user input?","<p>I googled it a lot and found nothing!
+Could someone help me with filling an array of characters from user input, please?</p>
+","1","<java><arrays><char>"
+"45970777","Does it matters where you put the square brackets when creating an Array","<p>Like <code>int [] i or int i []</code> is there any difference
+I'm curious </p>
+","1","<java><arrays>"
+"29441807","How to check an array of an array for an object","<p>I am trying to check if a two-dimensional array contains an object, how would you do this?</p>
+","1","<java><arrays><multidimensional-array>"
+"5201092","Model a Rubix Cube in an Array Java","<p>Does anybody have any idea on how to model a rubix cube in an array? I can't seem to think of a way?</p>
+","1","<java><multidimensional-array><rubiks-cube>"
+"28314768","Arraylist and Inheritance in Java","<p>How do I put two different objects from two different classes which inherit from the same super class in one single array list?</p>
+","1","<java><inheritance><arraylist>"
+"60629005","How to get list of year in java between two value?","<p>I try to get list of year in java. For example i want to print year from 2018 until the current year only. Anyone can help me on this ? </p>
+","1","<java><arrays><arraylist>"
+"12482275","Optimal way to sort an array","<p>I have an array in the form <code>[A,B,B,A,A]</code>. What is the optimized way to sort the array so I get <code>[A,A,A,B,B]</code>?</p>
+","1","<java><arrays>"
+"18285340","Split the String into a String array","<p>How can I split the following string to an array of {""George"", ""Washington""};</p>
+
+<pre><code>String arr = ""George\nWashington"";
+</code></pre>
+","1","<java><arrays><string>"
+"6630990","Java: A two dimensional array is stored in column-major or row-major order?","<p>In Java, is a multidimensional array stored in column-major or row-major order?</p>
+","1","<java><memory><multidimensional-array><performance>"
+"34849444","Why Array in Java always need to fixed size?","<p>As the title, i want to know why array always needs to fixed-size, instead of arrayList doesn't. Thanks </p>
+","1","<java><arrays>"
+"48859793","JAVA How to split by space and store into double array","<p>how can I read data from a text file, split and store each word/number into an array?</p>
+","1","<java><arrays><split>"
+"6937954","Java XML to Array","<p>Is there a function in java to convert a XML, which comes from an InputStream, into an Array?</p>
+
+<p>Thanks for Answers</p>
+","1","<java><xml><arrays>"
+"3061273","Send an Array with an HTTP Get","<p>How can i send an Array with a HTTP Get request?</p>
+
+<p>I'm Using GWT client to send the request.</p>
+","1","<java><http><gwt><arrays>"
+"6943588","Can Java use String as an index array key? (ex: array[""a""]=1;)","<p>Can Java use a String as an index array key? Example:</p>
+
+<pre><code>array[""a""] = 1;
+</code></pre>
+","1","<java><arrays><map>"
+"59369156","Is there any way to extend a Array without copy or without using Arraylist and increase the array size dynamically?","<p>Say for example if I have a array A. I should not increase the array size by using Array copy or I should not use Arraylist.</p>
+","1","<java><arrays><algorithm>"
+"27087037","Printwrite always overwriting file","<p>im trying to match phone numbers so i could print them to a .txt file but im having a bit of trouble. </p>
+
+<p>Thank you very much.</p>
+","1","<java><arrays><printwriter>"
+"59484391","How to Pass size to array for two dimensional Array in Swift","<p>Here Span is custom Class.</p>
+
+<p>ArrayList[] tempArray = new ArrayList[count];</p>
+","1","<java><swift><xcode><arraylist>"
+"27094597","Filling in a matrix in java","<p>I need to fill in a matrix (a table) for my java assignment.  I'm not sure where to start could someone please help me set it up.
+Thank you</p>
+","1","<java><multidimensional-array>"
+"3663944","What is the best way to remove the first element from an array?","<p>I have  string array (<code>String[]</code>) and I need to remove the first item. How can I do that efficiently? </p>
+","1","<java><arrays>"
+"27204977","Why is CopyOnWriteArrayList different than iterating over unmodifiableList?","<p>I am not able to understand why can't we achieve by just iterating over an immutable list rather than using this new implementation?</p>
+","1","<java><java.util.concurrent><copyonwritearraylist>"
+"3675121","How do you write a method that prints objects in a array in java?","<p>How do you print objects in a array in java?</p>
+","1","<java><arrays>"
+"27208807","In a 2-dimensional array of integers, how can we place a new integer at a completly random spot in the 2-d array?","<p>Specifically, if we create a method that will generate this integer and place it at a random spot in the array.</p>
+","1","<java><arrays><2d>"
+"27402861","Creating an array that stores strings and integers in java","<p>I would like to create an array that stores the names (String) and values (integer) of company stocks, but I don't know how to go about it. </p>
+","1","<java><arrays><object>"
+"53786255","Can you use an enhanced for each loop to add elements to an array?","<p>I know you cannot use an enhanced for loop to change the array elements, but what about adding things into an array?</p>
+
+<p>Many thanks</p>
+","1","<java><arrays><loops>"
+"7323890","Java:multidimensional array problem","<p>In a multidimensional array, is it possible to use the length variable to 
+measure different dimensions other than the first? </p>
+","1","<java><multidimensional-array>"
+"7328491","How to read file bytes in Java?","<p>How do I read a byte from a file, and put it into a byte array without converting the byte to an integer?</p>
+","1","<java><arrays>"
+"7370065","Can you create a Java Iterator over a 2d array?","<p>Can you create a single Iterator that will step over all spaces in a 2d array?</p>
+","1","<java><arrays><iterator>"
+"7371354","How to assign a value to byte array","<pre><code>byte abc[]=""204.29.207.217"";
+</code></pre>
+
+<p>This is giving an error. Please, tell me correct the method.</p>
+","1","<java><bytearray>"
+"55546523","Is it possible to have array index as char?","<p>count[str1.charAt(i)]</p>
+
+<p>charAt() returns char type. How can char type be used as index in array</p>
+","1","<java><arrays><char>"
+"26196109","Java Array String[] name or String name[]","<p>I have a small question.</p>
+
+<p>Is there any differences between:
+  - String[] name
+  and 
+  String name[] </p>
+","1","<java><arrays>"
+"20928381","How to declare an imageIcon array?","<p>I am somewhat new to Java, so excuse this really dumb question. I was just wondering, how does one declare a 2D array of ImageIcons?</p>
+","1","<java><multidimensional-array>"
+"2915453","how to get HashTable values as Arraylist?","<p>Hashtable  hw</p>
+
+<p>How can I convert its values to:</p>
+
+<pre><code>ArrayList &lt;Word&gt; arr
+</code></pre>
+
+<p>thanks.</p>
+","1","<java><arraylist><hashtable>"
+"18575480","How to convert Byte array to ByteArrayOutputStream","<p>I need to convert a byte array to ByteArrayOutputStream so that I can display it on screen.</p>
+","1","<java><byte><bytearrayoutputstream>"
+"13210293","How to detect special characters like ^A in a byte array","<p>A file consisting of special characters like ^A is stored in a byte array.how to detect these special characters and remove them?  </p>
+","1","<java><bytearray><special-characters>"
+"45423224","to reverse the elements of an array","<p>My code is generating <code>arrayIndexOutOfBound</code> exception. How to remove it ?</p>
+","1","<java><arrays><exception-handling><reverse>"
+"37403452","Efficient way to store an array of only 0s and 1s in Java","<p>What is the most space efficient way of storing an array of 1s and 0s in Java?</p>
+","1","<java><arrays><bit>"
+"26951385","In Java, why is the class ""Arrays"" plural?","<p>In Java, you <code>import HashMap;</code> and <code>import ArrayList;</code>, etc. So why is <code>import Arrays;</code> plural?</p>
+","1","<java><arrays>"
+"3746639","Assigning an array to an ArrayList in Java","<p>Is it possible to assign an <code>array</code> to an <code>ArrayList</code> in Java?</p>
+","1","<java><arrays><arraylist>"
+"22123606","Suppression problems with generically typed Arrays","<p>Why does this give me a type safety warning?</p>
+
+<pre><code>MyAwesomeObject&lt;T&gt;[] parent = new MyAwesomeObject[1];
+</code></pre>
+","1","<java><arrays><generics><type-conversion><suppress-warnings>"
+"4254868","Copy 2 array in a new one","<p>What is the best way (elegant/efficient) to copy two arrays into a new one ?</p>
+
+<p>Regards,</p>
+
+<p>F</p>
+","1","<java><arrays>"
+"29535572","how to take input from user and insert it in a arrayList","<p>i have a Student class and my arraylist is of type student .now,how do i take input from user and insert it in my arraylist?</p>
+","1","<java><arraylist><collections>"
+"4275482","How to convert a byte array to a string?","<p>How do I convert a byte array to a string? Is this the correct syntax?</p>
+
+<pre><code>byteArray.toString();
+</code></pre>
+","1","<java><bytearray>"
+"29608204","Java - Pass double as arguments without giving actual value","<p>DeletedDeletedDeletedDeletedDeletedDeletedDeleted</p>
+","1","<java><arrays><argument-passing>"
+"27604551","Convert List of object arrays to list of objects in Java","<p>Is there any Utility function in Java to convert <code>List&lt;Object[]&gt;</code> to <code>List&lt;Object&gt;</code></p>
+","1","<java><arrays><arraylist>"
+"22420962","Java replacing char at index","<p>I'm wanting to replace a character at in a string</p>
+","1","<java><arrays><string>"
+"43834422","Which is faster - inserting an element at the end of an array or a linked list","<p>Which is faster - inserting an element at the end of an array or a linkedlist ?</p>
+","1","<java><arrays><linked-list>"
+"22836633","Arraylist index calculation java","<p>I have array list that each indexes has value either 0 or 1.I want to find that continuously three indexes has the value 1.How do I find it?</p>
+","1","<java><arraylist><continuous>"
+"62707259","Does java really support rectangular arrays? If not what are non-jagged arrays called in java?","<p>For example,
+<code>int[][] numbers=new int[3][5];</code>
+is clearly not a jagged array.
+Can it be called a rectangular array?</p>
+","1","<java><arrays>"
+"62767584","Is there a material difference between pop() and remove() in Java ArrayDeque?","<p>Both remove and pop remove and return an element from the front of the Queue. They both throw an exception if there's an empty Queue.</p>
+","1","<java><queue><arraydeque>"
+"15271306","Convert String to array of integer in java","<p>Outline how a Java program could convert a string such as “1,2,3,4,5” into an array 
+({1, 2, 3, 4,5})</p>
+","1","<java><arrays><string>"
+"15859558","Hash Table Size Setting","<p>Do you always have to know the size of the <code>array</code> for a <code>Hashtable</code> prior to creating the <code>array</code>?</p>
+","1","<java><arrays><algorithm><hash>"
+"29642256","How to jumble the elements in an integer array?","<p>When an Double Integer is given and the digits of that integer are pushed into array. How to jumble these digits in the array?</p>
+","1","<java><arrays>"
+"5483330","How does one convert a HashMap to a List in Java?","<p>In Java, how does one get the values of a <code>HashMap</code> returned as a <code>List</code>?</p>
+","1","<java><list><dictionary><arraylist><hashmap>"
+"32206776","Last removed element from an Array/List in Java?","<p>How do you know the last removed element from an Array/List in Java? Interviewer asked me this Question.</p>
+","1","<java><arrays><list>"
+"5888407","In Java: List, ArrayList and Map, HashMap","<p>Is List:ArrayList::Map:HashMap ?</p>
+
+<p>And if not, what are the differences in how these relate to each other?</p>
+","1","<java><list><map><arraylist><hashmap>"
+"36843289","I have a text and i have to store it in Array then get all punctuations out and the printed text should be in lowCase. I am new in Java","<p>For exemple : ""Today is a big day! I asked Questions about Java"" should be like ""today is a big day i asked questions about java""</p>
+","1","<java><arrays>"
+"7028615","How to create base64Binary data?","<p>What is base64Binary and how can I create base64Binary from a given byte array in Java?</p>
+","1","<java><web-services><wsdl><bytearray><base64>"
+"7034981","convert byte[] to Object File in Java","<p>What is the best way to convert  a byte[] to Object java.io.File? i dont want write this in the disk just get a object File.</p>
+","1","<java><arrays><file-io><bytearray>"
+"32388743","How to add an Object into a certain x,y position in a 2D array of Objects","<p>I am making a game in Java and need to add an Object into a certain part of a 2D 4x4 array of null objects. How would I do that? </p>
+","1","<java><arrays><object><multidimensional-array>"
+"63936646","Convertion array ['xx=yy'] to map of xx=yy","<p>i have an array of object like this [&quot;statusCode=1&quot;] but i need it as &quot;statusCode&quot;=&quot;1&quot;</p>
+","1","<java><arrays><dictionary><angular5>"
+"63944448","Storing multiple objects in a single array element in Java","<p>Is it possible to store multiple objects in a single array element and if so, what would be the best method to go about doing that?</p>
+","1","<java><arrays>"
+"14827266","Converting a file to short array and vice versa","<p>How can I read a <code>short</code> array from a file e.g. audio or video file? And how can I write it back to the file?</p>
+","1","<java><android><arrays><file>"
+"14852648","JList - get number of selected elements in multi-select list","<p>How do i get the number of selected elements from my jlist? So that i can create an int[] array and add the selected indices to this array.</p>
+","1","<java><arrays><jlist>"
+"16124732","How to write an array to allocate space for 5 things","<p>I need to write an array to allocate space for 5 things for a program that I'm writing in Java, which I am new to, and need help.</p>
+","1","<java><arrays>"
+"61361897","Why can't we directly print Arrays in java?","<p>why do we have to convert the arrays into string using toString() before printing them? why can't we print them directly ?</p>
+","1","<java><arrays><tostring>"
+"61356865","How to add element to that variable list like this ""List<Object[]> listObject"" in java?","<p>I don't know how to add element if the type data in squareBracket is array.</p>
+","1","<java><arrays><list><variables><element>"
+"37199056","Check for Winner Tic Tac Toe game Java","<p>Problem hasn't been solved yet, but had to be taken down.</p>
+","1","<java><arrays><tic-tac-toe>"
+"22341024","Searching a list","<p>Never mind, I figured it out:</p>
+
+<pre><code>public class AnimalSearch
+{
+    public static void main(String[] args)
+
+    }
+}
+</code></pre>
+","1","<java><arrays>"
