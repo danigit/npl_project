@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+    <category>
+        <pattern>*</pattern>
+        <template>
+            <condition name="presentation_done">
+                <li value="yes">
+                    I do not know how to reply on that, but I can ask a friend of mine
+                    <delay>2</delay>
+                    His name is StackOverflow. Do you want me to ask him?
+                    <think><set name="stacksearchquery">java <star/></set></think>
+                    <reply>
+                        <text>Yes</text>
+                        <postback>
+                            STACKSEARCH
+                        </postback>
+                    </reply>
+                    <reply>
+                        <text>No</text>
+                        <postback>GIVEALTERNATIVE</postback>
+                    </reply>
+                </li>
+                <li value="no"><srai>HI *</srai>r</li>
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>GIVEALTERNATIVE</pattern>
+        <template>
+            <random>
+                <li>Maibe if you reformulate the question, I would be able to answer</li>
+                <li>Wel, you could always ask me something else</li>
+                <li>
+                    I realy think that my friend could help you. <break/>Should I ask him?
+                    <reply>
+                        <text>Yes</text>
+                        <postback>STACKSEARCH</postback>
+                    </reply>
+                    <reply>
+                        <text>No</text>
+                        <postback>GIVEALTERNATIVE</postback>
+                    </reply>
+                </li>
+                <li>Undortunately I don't know everithing</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>STACKSEARCH</pattern>
+        <template>
+            Ok, he told me that you should find the informations here
+            <button>
+                <text><get name="stacksearchquery"/></text>
+                <url>http://www.stackoverflow.com/search?q=<get name="stacksearchquery" /></url>
+            </button>
+            <delay>4</delay>
+            Did you find the information you are looking for?
+            <reply>
+                <text>Yes</text>
+                <postback>questionanswered</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback>googlesearch</postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>questionanswered</pattern>
+        <template>
+            <random>
+                <li>I'm glad that I was able to help you</li>
+                <li>It is nice ot have friends insn't it :-)</li>
+                <li>Ohhh... I was afraid for a seccond...</li>
+            </random>
+        </template>
+    </category>
+    <category>
+        <pattern>googlesearch</pattern>
+        <template>
+            I have this other friend that might know the answers.<break/>
+            It's name is Google, do you waht to ask him?
+            <reply>
+                <text>Yes</text>
+                <postback>googlesearchquery</postback>
+            </reply>
+            <reply>
+                <text>No</text>
+                <postback></postback>
+            </reply>
+        </template>
+    </category>
+    <category>
+        <pattern>googlesearchquery</pattern>
+        <template>
+            This is what I was able to find
+            <button>
+                <text><get name="stacksearchquery"/></text>
+                <url>http://www.google.com/search?q=<get name="stacksearchquery" /></url>
+            </button>
+            <delay>3</delay>
+            I have no other friends to ask to, so if you didn't find the answer, maybe you could try to reformulate the question
+        </template>
+    </category>
+    <category>
+        <pattern>goodanswer</pattern>
+        <template>Thank you, I'm glad that my answer was clear</template>
+    </category>
+    <category>
+        <pattern>^ HI ^</pattern>
+        <template>
+            <condition name="presentation_done">
+                <li value="yes">
+                    <condition name="username">
+                        <li value="*">
+                            Hi <get name="username"/>, what is your question?
+                        </li>
+                        <li>
+                            <random>
+                                <li>I don't know you, could you tell me your name please</li>
+                                <li>I don't think we told me your name, could you tell it to me now please</li>
+                                <li>You are new to me, please tell me you name</li>
+                            </random>
+                        </li>
+                    </condition>
+                </li>
+                <li>
+                    <think><set name="presentation_done">yes</set></think>
+                    Hi there! First of all I would like to introduce my self!
+                    <delay>2</delay>
+                    My name is StackBot, and I am able to answer to questions about Arrays in Java
+                    <delay>2</delay>
+                    What is your name?
+                </li>
+            </condition>
+        </template>
+    </category>
+    <category>
+        <pattern>^ HELLO ^</pattern>
+        <template><srai>^ HI ^</srai></template>
+    </category>
+    <category>
+        <pattern>^ ARE YOU ^</pattern>
+        <template><srai>^ HI ^</srai></template>
+    </category>
+    <category>
+        <pattern>* question ^</pattern>
+        <template>
+            <random>
+                <li>Ok lets here it</li>
+                <li>You can ask me questions about Arrays in Java
+                    <delay>2</delay>
+                    So let's see it!
+                </li>
+                <li>
+                    I can answer to some questions about Java Arrays<break/>
+                    So lets see you question
+                </li>
+            </random>
+            
+        </template>
+    </category>
+    <category>
+        <pattern>* questions ^</pattern>
+        <template><srai>* question ^</srai></template>
+    </category>
+    <category>
+        <pattern>MY NAME IS *</pattern>
+        <template>
+            <condition name="username">
+                <li value="*">Ok I wil remember this name <star/></li>
+                <li>
+                    Hello <set name="username"><star/></set>
+                    <break/>
+                    Nice to meet you!
+                    <delay>2</delay>
+                    Now tell me your question please.
+                </li>
+            </condition>
+        </template>
+    </category>
+</aiml>
+<delay>2</delay>
+<random>
+    <li>What do you say, did you understand the answer? Do you want me to give you another one?</li>
+    <li>If it isn't clear I could provide  you another answer? Do you want it?</li>
+    <li>I could try and give you another answer if you didn't understand. Would you kike that?</li>
+    <li>If you didn't understood I could provide you anoter answer. Do you want it?
+</random>
+<reply>
+    <text>Yes</text>
+    <postback>^ remove repeated elements ^ arraylist</postback>
+</reply>
+<reply>
+    <text>No</text>
+    <postback></postback>
+</reply>
